@@ -34,8 +34,8 @@ body {
     margin-bottom: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
-    margin-left: 5px; /* Add this line to add left margin */
-    margin-right: 5px; /* Add this line to add right margin */
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   #login[type="submit"]{
@@ -104,18 +104,16 @@ body {
   
   .separator::before {
     right: 55%;
-
   }
   
   .separator::after {
     left: 55%;
-
   }
 
   input[type="email"]:focus,
   input[type="password"]:focus {
     border-color: #0d64e6;
     outline: none;
-    border-width: 2px; /* Adjust the value as per your desired thickness */
+    border-width: 2px;
   }
   
